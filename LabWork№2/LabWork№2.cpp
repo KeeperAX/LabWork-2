@@ -1,4 +1,4 @@
-﻿#include <iostream>
+#include <iostream>
 #include <ctime>
 #include <chrono> 
 #include <algorithm>
@@ -279,8 +279,8 @@ void sortingLess(int(&arr)[100]) {
 		if (sortArr[i] <= num) {
 			count++;
 		}
-		cout << "\nКол-во элементов меньши " << num << ": " << count;
 	}
+	cout << "\nКол-во элементов меньши " << num << ": " << count;
 	cout << "\n\nВыберите дальненийшие действия\n";
 	cout << "[1]Выполнить следующее действие.\n";
 	cout << "[2]Вернуться в меню.\n";
@@ -323,8 +323,8 @@ void sortingMore(int(&arr)[100]) {
 		if (sortArr[i] >= num) {
 			count++;
 		}
-		cout << "\nКол-во элементов больше " << num << ": " << count;
 	}
+	cout << "\nКол-во элементов больше " << num << ": " << count;
 	cout << "\n\nВыберите дальненийшие действия\n";
 	cout << "[1]Выполнить следующее действие.\n";
 	cout << "[2]Вернуться в меню.\n";
